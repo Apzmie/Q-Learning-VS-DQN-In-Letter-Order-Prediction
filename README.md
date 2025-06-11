@@ -1,4 +1,5 @@
 # Q-Learning-VS-DQN-In-Letter-Order-Prediction
+With the rise of neural networks, there have been continuous efforts to apply them to reinforcement learning. Deep Q-Network is an approach that applies neural networks to Q-Learning. While Q-learning uses a table to store Q-values, DQN uses a neural network to approximate them. This project compares two reinforcement learning methods to understand their differences on the simple task without visual rendering, based on equations of Q-Learning and DQN.
 
 # qlearning_train.py
 ```python
@@ -46,3 +47,7 @@ Episode 3000, Total Reward: 6, Epsilon: 0.08647077305675337
 Best reward: 15
 Letters from the best reward episode: Q-Learning VS DQQ
 ```
+
+# Comparison
+Common points
+- During training, the reward does not gradually increase every epoch but rises at irregular intervals.
